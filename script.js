@@ -1,7 +1,9 @@
-document.getElementById('createTableButton').addEventListener('click', createTable);
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.getElementById('createTableButton').addEventListener('click', createTable);
+});
+
 function createTable() {
-    //Write your code here
-  // Prompt for number of rows and columns
+    // Prompt for number of rows and columns
     let rows = prompt("Input number of rows");
     let cols = prompt("Input number of columns");
 
